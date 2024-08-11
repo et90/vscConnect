@@ -20,5 +20,12 @@ export default class point{
         this.#context.stroke();
         console.log('draw p')
     }
+    setXY(x, y){
+        this.#x = x;
+        this.#y = y;
+    }
 
+    setColorFill(color){
+        this.#colorFill = color;
+    }
 }
